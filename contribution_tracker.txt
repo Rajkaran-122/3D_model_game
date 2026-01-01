@@ -1,0 +1,201 @@
+Initial contribution log
+Commit 0 on 2026-1-1 11:5:40 : Improve game loop timing accuracy
+Commit 1 on 2026-1-1 17:37:17 : Fix memory leaks in scene disposal
+Commit 2 on 2026-1-1 13:33:6 : Optimize texture compression settings
+Commit 3 on 2026-1-1 18:35:15 : Add support for WebP texture formats
+Commit 4 on 2026-1-1 9:22:6 : Implement new post-processing effects
+Commit 5 on 2026-1-1 20:40:48 : Refactor 3D model loading logic
+Commit 6 on 2026-1-1 16:30:40 : Optimize shadow map resolution
+Commit 7 on 2026-1-2 19:14:33 : Update dependencies to latest versions
+Commit 8 on 2026-1-2 14:10:54 : Update documentation for the 3D pipeline
+Commit 9 on 2026-1-2 12:29:34 : Add support for WebP texture formats
+Commit 10 on 2026-1-2 13:14:17 : Fix collision detection for vehicles
+Commit 11 on 2026-1-2 11:17:0 : Fix collision detection for vehicles
+Commit 12 on 2026-1-3 14:26:17 : Optimize texture compression settings
+Commit 13 on 2026-1-3 15:31:36 : Optimize foliage rendering performance
+Commit 14 on 2026-1-3 14:30:28 : Add support for custom camera controls
+Commit 15 on 2026-1-3 11:46:22 : Add support for GLB model compression
+Commit 16 on 2026-1-3 12:38:3 : Fix memory leaks in scene disposal
+Commit 17 on 2026-1-3 11:35:23 : Improve physics simulation stability
+Commit 18 on 2026-1-4 20:55:27 : Update documentation for the 3D pipeline
+Commit 19 on 2026-1-4 15:51:32 : Optimize shadow map resolution
+Commit 20 on 2026-1-4 21:3:2 : Improve performance of instanced rendering
+Commit 21 on 2026-1-4 13:36:56 : Refactor 3D model loading logic
+Commit 22 on 2026-1-4 20:8:55 : Fix z-fighting in terrain rendering
+Commit 23 on 2026-1-5 11:16:22 : Update documentation for the 3D pipeline
+Commit 24 on 2026-1-5 21:22:3 : Fix memory leaks in scene disposal
+Commit 25 on 2026-1-5 17:10:4 : Add interactive points for user engagement
+Commit 26 on 2026-1-5 17:27:38 : Fix memory leaks in scene disposal
+Commit 27 on 2026-1-5 11:54:31 : Add interactive points for user engagement
+Commit 28 on 2026-1-6 16:39:12 : Optimize foliage rendering performance
+Commit 29 on 2026-1-6 21:29:42 : Enhance terrain LOD system
+Commit 30 on 2026-1-6 9:15:8 : Update UI layout for better mobile responsiveness
+Commit 31 on 2026-1-6 14:17:55 : Add support for GLB model compression
+Commit 32 on 2026-1-6 16:15:47 : Update UI layout for better mobile responsiveness
+Commit 33 on 2026-1-8 14:2:37 : Improve performance of instanced rendering
+Commit 34 on 2026-1-8 13:25:19 : Update UI layout for better mobile responsiveness
+Commit 35 on 2026-1-8 20:20:24 : Enhance terrain LOD system
+Commit 36 on 2026-1-8 15:13:56 : Update dependencies to latest versions
+Commit 37 on 2026-1-11 10:15:17 : Fix memory leaks in scene disposal
+Commit 38 on 2026-1-11 14:50:4 : Fix audio positioning bugs
+Commit 39 on 2026-1-11 21:55:13 : Optimize texture compression settings
+Commit 40 on 2026-1-11 14:11:31 : Implement new post-processing effects
+Commit 41 on 2026-1-11 21:37:26 : Improve physics simulation stability
+Commit 42 on 2026-1-11 12:37:27 : Implement weather system transitions
+Commit 43 on 2026-1-11 21:58:42 : Add support for WebP texture formats
+Commit 44 on 2026-1-12 10:23:20 : Fix collision detection for vehicles
+Commit 45 on 2026-1-12 9:28:10 : Optimize foliage rendering performance
+Commit 46 on 2026-1-12 21:4:38 : Improve performance of instanced rendering
+Commit 47 on 2026-1-12 16:7:23 : Update dependencies to latest versions
+Commit 48 on 2026-1-12 9:8:1 : Add interactive points for user engagement
+Commit 49 on 2026-1-12 21:8:24 : Improve performance of instanced rendering
+Commit 50 on 2026-1-12 13:44:52 : Implement weather system transitions
+Commit 51 on 2026-1-20 19:13:31 : Fix audio positioning bugs
+Commit 52 on 2026-1-20 16:1:40 : Implement weather system transitions
+Commit 53 on 2026-1-20 17:31:33 : Implement weather system transitions
+Commit 54 on 2026-1-20 14:46:55 : Fix collision detection for vehicles
+Commit 55 on 2026-1-25 16:51:34 : Update UI layout for better mobile responsiveness
+Commit 56 on 2026-1-25 17:23:23 : Optimize texture compression settings
+Commit 57 on 2026-1-25 17:6:50 : Update UI layout for better mobile responsiveness
+Commit 58 on 2026-1-25 21:29:37 : Optimize foliage rendering performance
+Commit 59 on 2026-1-25 12:4:57 : Fix collision detection for vehicles
+Commit 60 on 2026-1-26 13:38:47 : Add support for custom camera controls
+Commit 61 on 2026-1-26 19:26:4 : Add new environment assets to the scene
+Commit 62 on 2026-1-26 14:36:20 : Fix collision detection for vehicles
+Commit 63 on 2026-1-26 17:25:48 : Add support for WebP texture formats
+Commit 64 on 2026-1-26 17:43:5 : Optimize foliage rendering performance
+Commit 65 on 2026-1-27 10:8:24 : Add support for custom camera controls
+Commit 66 on 2026-1-27 18:28:43 : Refactor state management for objects
+Commit 67 on 2026-1-27 9:52:13 : Add support for custom camera controls
+Commit 68 on 2026-1-27 9:7:36 : Improve physics simulation stability
+Commit 69 on 2026-1-27 17:7:27 : Improve physics simulation stability
+Commit 70 on 2026-1-27 17:16:52 : Implement weather system transitions
+Commit 71 on 2026-1-31 14:31:31 : Fix z-fighting in terrain rendering
+Commit 72 on 2026-1-31 19:15:11 : Fix z-fighting in terrain rendering
+Commit 73 on 2026-1-31 13:45:48 : Add support for custom camera controls
+Commit 74 on 2026-2-3 21:40:15 : Fix collision detection for vehicles
+Commit 75 on 2026-2-3 21:22:40 : Fix z-fighting in terrain rendering
+Commit 76 on 2026-2-3 19:25:54 : Add support for custom camera controls
+Commit 77 on 2026-2-3 14:1:29 : Improve game loop timing accuracy
+Commit 78 on 2026-2-6 11:44:21 : Add support for custom camera controls
+Commit 79 on 2026-2-6 16:36:9 : Update day/night cycle transitions
+Commit 80 on 2026-2-6 11:47:15 : Fix z-fighting in terrain rendering
+Commit 81 on 2026-2-6 21:13:15 : Update UI layout for better mobile responsiveness
+Commit 82 on 2026-2-7 14:19:51 : Improve performance of instanced rendering
+Commit 83 on 2026-2-7 16:6:28 : Fix memory leaks in scene disposal
+Commit 84 on 2026-2-7 12:22:51 : Update documentation for the 3D pipeline
+Commit 85 on 2026-2-7 16:20:30 : Optimize texture compression settings
+Commit 86 on 2026-2-7 20:42:19 : Fix memory leaks in scene disposal
+Commit 87 on 2026-2-9 9:38:31 : Refactor 3D model loading logic
+Commit 88 on 2026-2-9 20:29:31 : Update documentation for the 3D pipeline
+Commit 89 on 2026-2-9 19:18:0 : Optimize foliage rendering performance
+Commit 90 on 2026-2-9 9:10:32 : Add support for custom camera controls
+Commit 91 on 2026-2-9 21:7:34 : Add interactive points for user engagement
+Commit 92 on 2026-2-9 10:37:24 : Update dependencies to latest versions
+Commit 93 on 2026-2-9 21:14:22 : Improve physics simulation stability
+Commit 94 on 2026-2-15 17:10:54 : Add support for custom camera controls
+Commit 95 on 2026-2-15 11:42:12 : Improve game loop timing accuracy
+Commit 96 on 2026-2-15 17:31:2 : Add support for GLB model compression
+Commit 97 on 2026-2-15 15:8:48 : Optimize foliage rendering performance
+Commit 98 on 2026-2-15 21:15:36 : Add new environment assets to the scene
+Commit 99 on 2026-2-16 11:36:34 : Update UI layout for better mobile responsiveness
+Commit 100 on 2026-2-16 9:50:4 : Optimize texture compression settings
+Commit 101 on 2026-2-16 13:4:50 : Update UI layout for better mobile responsiveness
+Commit 102 on 2026-2-17 13:31:46 : Add support for custom camera controls
+Commit 103 on 2026-2-17 12:30:17 : Update dependencies to latest versions
+Commit 104 on 2026-2-17 10:26:28 : Update day/night cycle transitions
+Commit 105 on 2026-2-17 20:47:0 : Add new environment assets to the scene
+Commit 106 on 2026-2-17 14:49:42 : Fix audio positioning bugs
+Commit 107 on 2026-2-17 9:52:47 : Add support for custom camera controls
+Commit 108 on 2026-2-18 19:45:31 : Refactor 3D model loading logic
+Commit 109 on 2026-2-18 21:26:47 : Improve physics simulation stability
+Commit 110 on 2026-2-18 14:6:31 : Enhance terrain LOD system
+Commit 111 on 2026-2-18 9:24:39 : Fix z-fighting in terrain rendering
+Commit 112 on 2026-2-18 14:44:7 : Add support for custom camera controls
+Commit 113 on 2026-2-18 21:57:14 : Fix memory leaks in scene disposal
+Commit 114 on 2026-2-18 16:27:53 : Fix z-fighting in terrain rendering
+Commit 115 on 2026-2-19 13:31:15 : Refactor 3D model loading logic
+Commit 116 on 2026-2-19 10:12:34 : Add support for custom camera controls
+Commit 117 on 2026-2-19 12:47:21 : Improve performance of instanced rendering
+Commit 118 on 2026-2-19 9:30:58 : Fix audio positioning bugs
+Commit 119 on 2026-2-22 9:50:7 : Optimize shadow map resolution
+Commit 120 on 2026-2-22 19:24:23 : Refactor 3D model loading logic
+Commit 121 on 2026-2-22 14:44:56 : Refactor 3D model loading logic
+Commit 122 on 2026-2-23 12:41:52 : Optimize shadow map resolution
+Commit 123 on 2026-2-23 12:52:54 : Improve performance of instanced rendering
+Commit 124 on 2026-2-23 17:47:37 : Improve game loop timing accuracy
+Commit 125 on 2026-2-25 15:43:53 : Update documentation for the 3D pipeline
+Commit 126 on 2026-2-25 17:56:52 : Add support for GLB model compression
+Commit 127 on 2026-2-25 17:39:22 : Fix audio positioning bugs
+Commit 128 on 2026-2-26 9:22:34 : Fix audio positioning bugs
+Commit 129 on 2026-2-26 21:16:3 : Optimize texture compression settings
+Commit 130 on 2026-2-26 16:14:12 : Refactor state management for objects
+Commit 131 on 2026-2-27 12:3:56 : Refactor 3D model loading logic
+Commit 132 on 2026-2-27 10:1:41 : Fix z-fighting in terrain rendering
+Commit 133 on 2026-2-27 17:5:53 : Refactor 3D model loading logic
+Commit 134 on 2026-2-27 14:34:15 : Optimize texture compression settings
+Commit 135 on 2026-2-27 17:1:8 : Optimize texture compression settings
+Commit 136 on 2026-3-2 13:41:46 : Improve performance of instanced rendering
+Commit 137 on 2026-3-2 21:34:44 : Improve performance of instanced rendering
+Commit 138 on 2026-3-2 18:27:53 : Fix memory leaks in scene disposal
+Commit 139 on 2026-3-4 18:22:25 : Enhance terrain LOD system
+Commit 140 on 2026-3-4 20:49:50 : Fix audio positioning bugs
+Commit 141 on 2026-3-4 21:16:27 : Refactor 3D model loading logic
+Commit 142 on 2026-3-4 11:17:15 : Improve physics simulation stability
+Commit 143 on 2026-3-4 20:50:30 : Implement weather system transitions
+Commit 144 on 2026-3-6 16:39:15 : Improve performance of instanced rendering
+Commit 145 on 2026-3-6 18:38:32 : Optimize shadow map resolution
+Commit 146 on 2026-3-6 19:45:10 : Implement new post-processing effects
+Commit 147 on 2026-3-6 19:14:35 : Update dependencies to latest versions
+Commit 148 on 2026-3-10 9:44:22 : Refactor state management for objects
+Commit 149 on 2026-3-10 10:31:21 : Enhance terrain LOD system
+Commit 150 on 2026-3-10 12:10:0 : Add support for WebP texture formats
+Commit 151 on 2026-3-11 19:44:49 : Implement new shader for water surfaces
+Commit 152 on 2026-3-11 17:4:35 : Implement new post-processing effects
+Commit 153 on 2026-3-11 10:29:6 : Update dependencies to latest versions
+Commit 154 on 2026-3-11 10:50:53 : Add support for GLB model compression
+Commit 155 on 2026-3-11 14:25:37 : Fix audio positioning bugs
+Commit 156 on 2026-3-11 12:6:14 : Improve game loop timing accuracy
+Commit 157 on 2026-3-14 19:27:19 : Optimize foliage rendering performance
+Commit 158 on 2026-3-14 17:41:11 : Improve game loop timing accuracy
+Commit 159 on 2026-3-14 14:16:36 : Implement weather system transitions
+Commit 160 on 2026-3-14 18:54:27 : Refactor 3D model loading logic
+Commit 161 on 2026-3-14 16:45:19 : Fix z-fighting in terrain rendering
+Commit 162 on 2026-3-14 13:20:39 : Implement weather system transitions
+Commit 163 on 2026-3-14 10:3:43 : Add support for WebP texture formats
+Commit 164 on 2026-3-17 18:22:30 : Add support for WebP texture formats
+Commit 165 on 2026-3-17 13:9:51 : Add new environment assets to the scene
+Commit 166 on 2026-3-17 21:38:29 : Add support for GLB model compression
+Commit 167 on 2026-3-17 16:13:6 : Improve physics simulation stability
+Commit 168 on 2026-3-17 14:43:45 : Update UI layout for better mobile responsiveness
+Commit 169 on 2026-3-17 19:25:55 : Optimize texture compression settings
+Commit 170 on 2026-3-21 13:33:23 : Improve game loop timing accuracy
+Commit 171 on 2026-3-21 18:1:23 : Optimize foliage rendering performance
+Commit 172 on 2026-3-21 11:9:32 : Optimize shadow map resolution
+Commit 173 on 2026-3-21 18:34:33 : Refactor 3D model loading logic
+Commit 174 on 2026-3-21 15:48:24 : Add new environment assets to the scene
+Commit 175 on 2026-3-21 19:55:3 : Add support for custom camera controls
+Commit 176 on 2026-3-22 19:40:18 : Improve performance of instanced rendering
+Commit 177 on 2026-3-22 21:34:50 : Implement new shader for water surfaces
+Commit 178 on 2026-3-22 10:48:37 : Refactor state management for objects
+Commit 179 on 2026-3-25 13:24:27 : Update dependencies to latest versions
+Commit 180 on 2026-3-25 9:36:23 : Implement new shader for water surfaces
+Commit 181 on 2026-3-25 12:30:19 : Implement new shader for water surfaces
+Commit 182 on 2026-3-25 12:55:35 : Update documentation for the 3D pipeline
+Commit 183 on 2026-3-25 20:15:22 : Update UI layout for better mobile responsiveness
+Commit 184 on 2026-3-25 14:9:3 : Optimize texture compression settings
+Commit 185 on 2026-3-28 21:0:33 : Add support for custom camera controls
+Commit 186 on 2026-3-28 19:58:43 : Fix z-fighting in terrain rendering
+Commit 187 on 2026-3-28 14:45:13 : Refactor state management for objects
+Commit 188 on 2026-3-28 16:45:17 : Fix collision detection for vehicles
+Commit 189 on 2026-3-28 12:33:47 : Update dependencies to latest versions
+Commit 190 on 2026-3-28 19:40:11 : Optimize foliage rendering performance
+Commit 191 on 2026-3-28 17:25:40 : Improve physics simulation stability
+Commit 192 on 2026-3-29 17:6:3 : Update documentation for the 3D pipeline
+Commit 193 on 2026-3-29 18:20:54 : Add interactive points for user engagement
+Commit 194 on 2026-3-29 21:49:4 : Add support for GLB model compression
+Commit 195 on 2026-3-29 11:56:36 : Update documentation for the 3D pipeline
+Commit 196 on 2026-3-29 14:44:21 : Implement new shader for water surfaces
+Commit 197 on 2026-3-29 21:30:35 : Fix z-fighting in terrain rendering
+Commit 198 on 2026-3-30 20:24:17 : Update documentation for the 3D pipeline
+Commit 199 on 2026-3-30 11:3:42 : Add support for custom camera controls
