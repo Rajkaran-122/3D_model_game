@@ -203,3 +203,4 @@ Commit 0 on 2026-1-1 16:29:56 : Improve performance of instanced rendering
 Commit 1 on 2026-1-1 13:17:42 : Add interactive points for user engagement
 Commit 2 on 2026-1-1 9:20:53 : Fix audio positioning bugs
 Commit 3 on 2026-1-1 20:36:26 : Add support for GLB model compression
+Commit 4 on 2026-1-1 20:42:33 : Fix memory leaks in scene disposal
