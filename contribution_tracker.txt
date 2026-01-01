@@ -199,3 +199,4 @@ Commit 196 on 2026-3-29 14:44:21 : Implement new shader for water surfaces
 Commit 197 on 2026-3-29 21:30:35 : Fix z-fighting in terrain rendering
 Commit 198 on 2026-3-30 20:24:17 : Update documentation for the 3D pipeline
 Commit 199 on 2026-3-30 11:3:42 : Add support for custom camera controls
+Commit 0 on 2026-1-1 16:29:56 : Improve performance of instanced rendering
