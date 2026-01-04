@@ -214,3 +214,4 @@ Commit 11 on 2026-1-3 21:52:49 : Improve physics simulation stability
 Commit 12 on 2026-1-3 11:44:43 : Optimize foliage rendering performance
 Commit 13 on 2026-1-4 19:45:24 : Fix memory leaks in scene disposal
 Commit 14 on 2026-1-4 19:28:32 : Add support for WebP texture formats
+Commit 15 on 2026-1-4 20:43:18 : Optimize shadow map resolution
