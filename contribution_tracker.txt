@@ -219,3 +219,4 @@ Commit 16 on 2026-1-4 14:33:21 : Fix collision detection for vehicles
 Commit 17 on 2026-1-5 11:20:45 : Enhance terrain LOD system
 Commit 18 on 2026-1-5 16:57:3 : Update dependencies to latest versions
 Commit 19 on 2026-1-5 17:1:35 : Update day/night cycle transitions
+Commit 20 on 2026-1-5 13:30:54 : Optimize shadow map resolution
