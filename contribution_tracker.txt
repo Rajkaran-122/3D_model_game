@@ -224,3 +224,4 @@ Commit 21 on 2026-1-5 19:32:51 : Add interactive points for user engagement
 Commit 22 on 2026-1-6 17:30:0 : Refactor 3D model loading logic
 Commit 23 on 2026-1-6 20:16:8 : Optimize shadow map resolution
 Commit 24 on 2026-1-6 10:42:34 : Improve physics simulation stability
+Commit 25 on 2026-1-6 16:11:31 : Fix z-fighting in terrain rendering
