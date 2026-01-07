@@ -231,3 +231,4 @@ Commit 28 on 2026-1-7 19:5:6 : Improve physics simulation stability
 Commit 29 on 2026-1-7 16:32:0 : Optimize shadow map resolution
 Commit 30 on 2026-1-7 13:36:50 : Fix collision detection for vehicles
 Commit 31 on 2026-1-7 13:31:56 : Add support for GLB model compression
+Commit 32 on 2026-1-7 14:10:38 : Add support for GLB model compression
