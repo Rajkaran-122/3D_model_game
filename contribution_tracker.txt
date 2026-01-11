@@ -237,3 +237,4 @@ Commit 34 on 2026-1-11 17:3:10 : Optimize foliage rendering performance
 Commit 35 on 2026-1-11 16:34:38 : Add interactive points for user engagement
 Commit 36 on 2026-1-11 13:31:33 : Add support for custom camera controls
 Commit 37 on 2026-1-11 19:10:38 : Add interactive points for user engagement
+Commit 38 on 2026-1-11 19:40:58 : Add new environment assets to the scene
