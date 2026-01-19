@@ -239,3 +239,4 @@ Commit 36 on 2026-1-11 13:31:33 : Add support for custom camera controls
 Commit 37 on 2026-1-11 19:10:38 : Add interactive points for user engagement
 Commit 38 on 2026-1-11 19:40:58 : Add new environment assets to the scene
 Commit 39 on 2026-1-11 14:0:16 : Fix z-fighting in terrain rendering
+Commit 40 on 2026-1-19 11:9:31 : Implement new shader for water surfaces
