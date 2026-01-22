@@ -245,3 +245,4 @@ Commit 42 on 2026-1-19 17:56:42 : Refactor 3D model loading logic
 Commit 43 on 2026-1-20 11:57:45 : Refactor state management for objects
 Commit 44 on 2026-1-20 11:46:0 : Optimize foliage rendering performance
 Commit 45 on 2026-1-20 16:21:58 : Refactor 3D model loading logic
+Commit 46 on 2026-1-22 19:49:1 : Add support for WebP texture formats
