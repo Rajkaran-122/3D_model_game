@@ -251,3 +251,4 @@ Commit 48 on 2026-1-22 18:55:25 : Improve game loop timing accuracy
 Commit 49 on 2026-1-22 15:36:10 : Add support for GLB model compression
 Commit 50 on 2026-1-22 20:3:6 : Improve game loop timing accuracy
 Commit 51 on 2026-1-24 17:17:6 : Update documentation for the 3D pipeline
+Commit 52 on 2026-1-24 19:0:42 : Optimize foliage rendering performance
