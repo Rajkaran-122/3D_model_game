@@ -257,3 +257,4 @@ Commit 54 on 2026-1-26 15:8:47 : Update day/night cycle transitions
 Commit 55 on 2026-1-26 20:45:39 : Fix collision detection for vehicles
 Commit 56 on 2026-1-26 11:32:20 : Refactor state management for objects
 Commit 57 on 2026-1-26 15:15:13 : Update dependencies to latest versions
+Commit 58 on 2026-1-29 18:13:33 : Fix z-fighting in terrain rendering
