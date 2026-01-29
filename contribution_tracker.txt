@@ -260,3 +260,4 @@ Commit 57 on 2026-1-26 15:15:13 : Update dependencies to latest versions
 Commit 58 on 2026-1-29 18:13:33 : Fix z-fighting in terrain rendering
 Commit 59 on 2026-1-29 13:49:56 : Fix audio positioning bugs
 Commit 60 on 2026-1-29 18:50:8 : Add support for WebP texture formats
+Commit 61 on 2026-1-29 17:41:52 : Improve performance of instanced rendering
