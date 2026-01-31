@@ -263,3 +263,4 @@ Commit 60 on 2026-1-29 18:50:8 : Add support for WebP texture formats
 Commit 61 on 2026-1-29 17:41:52 : Improve performance of instanced rendering
 Commit 62 on 2026-1-31 13:57:35 : Optimize shadow map resolution
 Commit 63 on 2026-1-31 13:1:53 : Fix audio positioning bugs
+Commit 64 on 2026-1-31 19:0:31 : Add support for GLB model compression
