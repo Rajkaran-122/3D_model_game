@@ -269,3 +269,4 @@ Commit 66 on 2026-1-31 21:43:2 : Implement new post-processing effects
 Commit 67 on 2026-2-1 16:50:45 : Improve game loop timing accuracy
 Commit 68 on 2026-2-1 13:57:39 : Implement new shader for water surfaces
 Commit 69 on 2026-2-1 9:36:2 : Improve performance of instanced rendering
+Commit 70 on 2026-2-1 12:5:39 : Add support for GLB model compression
