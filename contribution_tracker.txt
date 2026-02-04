@@ -276,3 +276,4 @@ Commit 73 on 2026-2-1 18:36:13 : Update dependencies to latest versions
 Commit 74 on 2026-2-4 13:6:28 : Fix collision detection for vehicles
 Commit 75 on 2026-2-4 10:16:1 : Improve game loop timing accuracy
 Commit 76 on 2026-2-4 18:22:21 : Refactor 3D model loading logic
+Commit 77 on 2026-2-4 11:23:57 : Optimize shadow map resolution
