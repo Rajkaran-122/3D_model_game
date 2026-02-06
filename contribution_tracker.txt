@@ -280,3 +280,4 @@ Commit 77 on 2026-2-4 11:23:57 : Optimize shadow map resolution
 Commit 78 on 2026-2-6 9:25:15 : Add support for custom camera controls
 Commit 79 on 2026-2-6 10:11:21 : Fix audio positioning bugs
 Commit 80 on 2026-2-6 9:12:38 : Update UI layout for better mobile responsiveness
+Commit 81 on 2026-2-6 13:46:12 : Optimize shadow map resolution
