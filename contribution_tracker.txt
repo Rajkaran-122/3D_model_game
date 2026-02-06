@@ -282,3 +282,4 @@ Commit 79 on 2026-2-6 10:11:21 : Fix audio positioning bugs
 Commit 80 on 2026-2-6 9:12:38 : Update UI layout for better mobile responsiveness
 Commit 81 on 2026-2-6 13:46:12 : Optimize shadow map resolution
 Commit 82 on 2026-2-6 14:36:21 : Implement new post-processing effects
+Commit 83 on 2026-2-6 16:51:12 : Add support for GLB model compression
