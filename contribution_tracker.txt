@@ -290,3 +290,4 @@ Commit 87 on 2026-2-7 18:10:29 : Refactor state management for objects
 Commit 88 on 2026-2-7 18:20:0 : Add interactive points for user engagement
 Commit 89 on 2026-2-7 12:40:17 : Fix collision detection for vehicles
 Commit 90 on 2026-2-7 12:1:33 : Optimize foliage rendering performance
+Commit 91 on 2026-2-7 19:31:11 : Improve performance of instanced rendering
