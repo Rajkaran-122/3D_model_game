@@ -302,3 +302,4 @@ Commit 99 on 2026-2-12 17:29:51 : Improve physics simulation stability
 Commit 100 on 2026-2-12 16:38:24 : Improve performance of instanced rendering
 Commit 101 on 2026-2-12 9:32:36 : Implement new post-processing effects
 Commit 102 on 2026-2-16 13:58:58 : Add support for GLB model compression
+Commit 103 on 2026-2-16 17:15:55 : Fix memory leaks in scene disposal
