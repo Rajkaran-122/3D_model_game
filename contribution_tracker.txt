@@ -324,3 +324,4 @@ Commit 121 on 2026-2-23 13:15:44 : Implement new shader for water surfaces
 Commit 122 on 2026-2-23 18:49:7 : Add support for custom camera controls
 Commit 123 on 2026-2-24 17:25:5 : Optimize texture compression settings
 Commit 124 on 2026-2-24 13:52:13 : Optimize texture compression settings
+Commit 125 on 2026-2-24 10:15:7 : Fix collision detection for vehicles
