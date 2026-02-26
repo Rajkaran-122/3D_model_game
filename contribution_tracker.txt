@@ -332,3 +332,4 @@ Commit 129 on 2026-2-26 9:18:10 : Fix z-fighting in terrain rendering
 Commit 130 on 2026-2-26 21:45:41 : Fix collision detection for vehicles
 Commit 131 on 2026-2-26 18:34:21 : Add support for GLB model compression
 Commit 132 on 2026-2-26 15:13:56 : Improve performance of instanced rendering
+Commit 133 on 2026-2-26 19:39:56 : Fix collision detection for vehicles
