@@ -328,3 +328,4 @@ Commit 125 on 2026-2-24 10:15:7 : Fix collision detection for vehicles
 Commit 126 on 2026-2-24 14:23:38 : Fix collision detection for vehicles
 Commit 127 on 2026-2-24 19:45:24 : Implement new post-processing effects
 Commit 128 on 2026-2-24 18:51:0 : Fix collision detection for vehicles
+Commit 129 on 2026-2-26 9:18:10 : Fix z-fighting in terrain rendering
