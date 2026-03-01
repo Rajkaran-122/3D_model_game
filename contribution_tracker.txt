@@ -339,3 +339,4 @@ Commit 136 on 2026-3-1 13:6:37 : Fix memory leaks in scene disposal
 Commit 137 on 2026-3-1 12:16:28 : Improve game loop timing accuracy
 Commit 138 on 2026-3-1 15:0:51 : Optimize foliage rendering performance
 Commit 139 on 2026-3-1 16:48:25 : Refactor 3D model loading logic
+Commit 140 on 2026-3-1 12:42:30 : Fix z-fighting in terrain rendering
