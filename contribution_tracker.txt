@@ -335,3 +335,4 @@ Commit 132 on 2026-2-26 15:13:56 : Improve performance of instanced rendering
 Commit 133 on 2026-2-26 19:39:56 : Fix collision detection for vehicles
 Commit 134 on 2026-2-26 14:17:0 : Add interactive points for user engagement
 Commit 135 on 2026-3-1 17:31:7 : Optimize shadow map resolution
+Commit 136 on 2026-3-1 13:6:37 : Fix memory leaks in scene disposal
