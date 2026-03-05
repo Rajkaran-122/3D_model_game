@@ -343,3 +343,4 @@ Commit 140 on 2026-3-1 12:42:30 : Fix z-fighting in terrain rendering
 Commit 141 on 2026-3-4 15:21:0 : Implement new shader for water surfaces
 Commit 142 on 2026-3-4 9:10:22 : Add support for WebP texture formats
 Commit 143 on 2026-3-4 15:56:45 : Add support for custom camera controls
+Commit 144 on 2026-3-5 12:19:20 : Fix z-fighting in terrain rendering
