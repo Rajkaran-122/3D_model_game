@@ -354,3 +354,4 @@ Commit 151 on 2026-3-7 12:34:11 : Add new environment assets to the scene
 Commit 152 on 2026-3-7 14:46:26 : Implement new shader for water surfaces
 Commit 153 on 2026-3-7 15:35:46 : Add support for WebP texture formats
 Commit 154 on 2026-3-7 12:24:22 : Add support for WebP texture formats
+Commit 155 on 2026-3-7 11:46:55 : Fix memory leaks in scene disposal
