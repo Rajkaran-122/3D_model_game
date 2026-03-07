@@ -352,3 +352,4 @@ Commit 149 on 2026-3-5 14:21:52 : Implement new shader for water surfaces
 Commit 150 on 2026-3-5 14:28:24 : Update day/night cycle transitions
 Commit 151 on 2026-3-7 12:34:11 : Add new environment assets to the scene
 Commit 152 on 2026-3-7 14:46:26 : Implement new shader for water surfaces
+Commit 153 on 2026-3-7 15:35:46 : Add support for WebP texture formats
