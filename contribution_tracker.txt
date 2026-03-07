@@ -350,3 +350,4 @@ Commit 147 on 2026-3-5 15:2:54 : Improve game loop timing accuracy
 Commit 148 on 2026-3-5 14:42:52 : Fix collision detection for vehicles
 Commit 149 on 2026-3-5 14:21:52 : Implement new shader for water surfaces
 Commit 150 on 2026-3-5 14:28:24 : Update day/night cycle transitions
+Commit 151 on 2026-3-7 12:34:11 : Add new environment assets to the scene
