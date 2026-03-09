@@ -356,3 +356,4 @@ Commit 153 on 2026-3-7 15:35:46 : Add support for WebP texture formats
 Commit 154 on 2026-3-7 12:24:22 : Add support for WebP texture formats
 Commit 155 on 2026-3-7 11:46:55 : Fix memory leaks in scene disposal
 Commit 156 on 2026-3-7 9:49:19 : Add support for WebP texture formats
+Commit 157 on 2026-3-9 9:40:52 : Enhance terrain LOD system
