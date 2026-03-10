@@ -362,3 +362,4 @@ Commit 159 on 2026-3-9 20:41:24 : Improve game loop timing accuracy
 Commit 160 on 2026-3-9 14:4:52 : Optimize foliage rendering performance
 Commit 161 on 2026-3-9 10:5:7 : Implement new shader for water surfaces
 Commit 162 on 2026-3-10 11:32:58 : Update day/night cycle transitions
+Commit 163 on 2026-3-10 20:19:23 : Improve performance of instanced rendering
