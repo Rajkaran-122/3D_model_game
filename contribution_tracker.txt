@@ -365,3 +365,4 @@ Commit 162 on 2026-3-10 11:32:58 : Update day/night cycle transitions
 Commit 163 on 2026-3-10 20:19:23 : Improve performance of instanced rendering
 Commit 164 on 2026-3-10 14:48:35 : Implement new shader for water surfaces
 Commit 165 on 2026-3-10 20:57:10 : Enhance terrain LOD system
+Commit 166 on 2026-3-10 10:22:56 : Add interactive points for user engagement
