@@ -375,3 +375,4 @@ Commit 172 on 2026-3-15 9:46:38 : Implement new post-processing effects
 Commit 173 on 2026-3-15 9:37:25 : Update day/night cycle transitions
 Commit 174 on 2026-3-15 14:31:13 : Optimize texture compression settings
 Commit 175 on 2026-3-17 12:27:43 : Implement new post-processing effects
+Commit 176 on 2026-3-17 10:44:40 : Optimize shadow map resolution
