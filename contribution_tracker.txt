@@ -389,3 +389,4 @@ Commit 186 on 2026-3-20 17:1:8 : Improve physics simulation stability
 Commit 187 on 2026-3-21 19:17:18 : Add support for custom camera controls
 Commit 188 on 2026-3-21 19:36:25 : Add new environment assets to the scene
 Commit 189 on 2026-3-21 14:58:46 : Improve performance of instanced rendering
+Commit 190 on 2026-3-23 14:41:32 : Implement new shader for water surfaces
