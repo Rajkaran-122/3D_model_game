@@ -673,5 +673,39 @@ export class Player
             this.game.achievements.setProgress('distanceDriven', distanceDrivenKm)
 
         }
+
+        // Speed demon achievement
+        const speedKmh = this.game.physicalVehicle.xzSpeed * 3.6
+        if(speedKmh >= 80)
+            this.game.achievements.setProgress('speedDemon', 1)
+
+        // Airtime achievement
+        if(this.game.physicalVehicle.wheels.touchingCount === 0)
+        {
+            if(!this.airtimeStart)
+                this.airtimeStart = this.game.ticker.elapsedTime
+            
+            const airtime = this.game.ticker.elapsedTime - this.airtimeStart
+            if(airtime >= 3)
+                this.game.achievements.setProgress('airtime', 1)
+        }
+        else
+        {
+            this.airtimeStart = null
+        }
+
+        // Night owl achievement
+        if(this.game.dayCycles)
+        {
+            const dayProgress = this.game.dayCycles.progress
+            if(dayProgress > 0.85 || dayProgress < 0.15)
+                this.game.achievements.setProgress('nightOwl', 1)
+        }
+
+        // Storm chaser achievement
+        if(this.game.tornado && this.game.tornado.active)
+        {
+            this.game.achievements.setProgress('stormChaser', 1)
+        }
     }
 }

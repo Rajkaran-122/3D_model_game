@@ -1,0 +1,445 @@
+// ============================================
+// HUD - In-Game Heads Up Display
+// ============================================
+
+.hud
+    position fixed
+    top 0
+    left 0
+    width 100%
+    height 100%
+    pointer-events none
+    z-index 5
+    color #ffffff
+    font-family "Nunito", sans-serif
+    transition opacity 0.4s ease
+
+    &.is-hidden
+        opacity 0
+
+    *
+        pointer-events none
+
+// --- Speedometer ---
+.hud-speedometer
+    position absolute
+    bottom 30px
+    right 30px
+    width 130px
+    height 130px
+
+    @media only screen and (max-width 768px)
+        width 100px
+        height 100px
+        bottom 20px
+        right 20px
+
+    @media only screen and (max-width 440px)
+        width 80px
+        height 80px
+        bottom 15px
+        right 15px
+
+.hud-speedo-ring
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    transform rotate(-135deg)
+
+.hud-speedo-track
+    fill none
+    stroke rgba(255, 255, 255, 0.1)
+    stroke-width 6
+    stroke-linecap round
+
+.hud-speedo-fill
+    fill none
+    stroke #00e5ff
+    stroke-width 6
+    stroke-linecap round
+    transition stroke 0.3s ease, stroke-dashoffset 0.08s ease
+
+.hud-speedo-inner
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+    text-align center
+
+.hud-speedo-value
+    display block
+    font-size 2.2rem
+    font-weight 900
+    line-height 1
+    text-shadow 0 0 20px rgba(0, 229, 255, 0.4)
+
+    @media only screen and (max-width 768px)
+        font-size 1.6rem
+
+    @media only screen and (max-width 440px)
+        font-size 1.3rem
+
+.hud-speedo-unit
+    display block
+    font-size 0.6rem
+    font-weight 700
+    letter-spacing 2px
+    opacity 0.6
+    text-transform uppercase
+
+    @media only screen and (max-width 440px)
+        font-size 0.5rem
+
+// --- Boost Meter ---
+.hud-boost
+    position absolute
+    bottom 30px
+    right 175px
+    width 8px
+    height 110px
+    display flex
+    flex-direction column
+    align-items center
+
+    @media only screen and (max-width 768px)
+        right 132px
+        height 85px
+        bottom 20px
+
+    @media only screen and (max-width 440px)
+        right 104px
+        height 65px
+        bottom 15px
+
+    &.is-active
+        .hud-boost-glow
+            opacity 1
+            box-shadow 0 0 15px rgba(255, 170, 0, 0.8), 0 0 30px rgba(255, 107, 0, 0.4)
+
+.hud-boost-label
+    font-size 0.5rem
+    font-weight 700
+    letter-spacing 2px
+    opacity 0.6
+    margin-bottom 6px
+    text-transform uppercase
+
+    @media only screen and (max-width 440px)
+        font-size 0.4rem
+
+.hud-boost-bar
+    flex 1
+    width 100%
+    background rgba(255, 255, 255, 0.1)
+    border-radius 4px
+    position relative
+    overflow hidden
+    transform rotate(180deg) // Fill from bottom
+
+.hud-boost-fill
+    position absolute
+    bottom 0
+    left 0
+    width 100%
+    height 100%
+    background linear-gradient(180deg, #00e5ff, #00ff88)
+    border-radius 4px
+    transform-origin bottom
+    transition background 0.3s ease
+
+.hud-boost-glow
+    position absolute
+    bottom 0
+    left -2px
+    width calc(100% + 4px)
+    height 100%
+    border-radius 4px
+    opacity 0
+    transition opacity 0.3s ease, box-shadow 0.3s ease
+
+// --- Altitude ---
+.hud-altitude
+    position absolute
+    bottom 170px
+    right 55px
+    font-size 0.75rem
+    opacity 0.6
+    text-align center
+
+    @media only screen and (max-width 768px)
+        bottom 120px
+        right 40px
+        font-size 0.65rem
+
+    @media only screen and (max-width 440px)
+        bottom 90px
+        right 30px
+        font-size 0.55rem
+
+.hud-altitude-icon
+    font-size 0.5rem
+    margin-right 2px
+
+.hud-altitude-value
+    font-weight 700
+    font-size 0.9rem
+
+    @media only screen and (max-width 768px)
+        font-size 0.75rem
+
+.hud-altitude-unit
+    font-size 0.55rem
+    opacity 0.7
+
+// --- Compass ---
+.hud-compass
+    position absolute
+    top 20px
+    left 50%
+    transform translateX(-50%)
+    width 200px
+    height 30px
+    overflow hidden
+    background rgba(0, 0, 0, 0.2)
+    backdrop-filter blur(8px)
+    -webkit-backdrop-filter blur(8px)
+    border-radius 15px
+    border 1px solid rgba(255, 255, 255, 0.08)
+
+    @media only screen and (max-width 768px)
+        width 160px
+        height 26px
+        top 15px
+
+    @media only screen and (max-width 440px)
+        width 130px
+        height 22px
+        top 10px
+
+.hud-compass-marker
+    position absolute
+    top -2px
+    left 50%
+    transform translateX(-50%)
+    font-size 0.5rem
+    color #00e5ff
+    z-index 2
+    text-shadow 0 0 6px rgba(0, 229, 255, 0.6)
+
+.hud-compass-strip
+    display flex
+    justify-content space-around
+    align-items center
+    height 100%
+    width 200%
+    transition transform 0.1s ease
+    padding-top 3px
+
+    span
+        font-size 0.55rem
+        font-weight 700
+        opacity 0.4
+        min-width 25px
+        text-align center
+
+        @media only screen and (max-width 440px)
+            font-size 0.45rem
+
+        &[data-dir="N"]
+        &[data-dir="S"]
+        &[data-dir="E"]
+        &[data-dir="W"]
+            opacity 0.9
+            color #00e5ff
+            font-size 0.65rem
+
+            @media only screen and (max-width 440px)
+                font-size 0.55rem
+
+// --- Drift Score ---
+.hud-drift
+    position absolute
+    top 35%
+    left 50%
+    transform translateX(-50%)
+    text-align center
+    transition opacity 0.3s ease, transform 0.3s ease
+
+    &.is-hidden
+        display none
+
+.hud-drift-label
+    font-size 0.7rem
+    font-weight 700
+    letter-spacing 4px
+    opacity 0.7
+    text-transform uppercase
+    color #ffaa00
+
+.hud-drift-score
+    font-size 3rem
+    font-weight 900
+    line-height 1
+    text-shadow 0 0 30px rgba(255, 170, 0, 0.5)
+    color #ffcc00
+
+    @media only screen and (max-width 768px)
+        font-size 2.2rem
+
+.hud-drift-multiplier
+    font-size 1.2rem
+    font-weight 700
+    color #ff6b00
+    text-shadow 0 0 15px rgba(255, 107, 0, 0.5)
+
+    @media only screen and (max-width 768px)
+        font-size 1rem
+
+// --- HUD Tips ---
+.hud-tip
+    position absolute
+    bottom 180px
+    left 50%
+    transform translateX(-50%)
+    background rgba(0, 0, 0, 0.35)
+    backdrop-filter blur(8px)
+    -webkit-backdrop-filter blur(8px)
+    border-radius 20px
+    border 1px solid rgba(255, 255, 255, 0.08)
+    padding 8px 18px
+    transition opacity 0.6s ease, transform 0.6s ease
+    white-space nowrap
+
+    @media only screen and (max-width 768px)
+        bottom 140px
+
+    &.is-hidden
+        opacity 0
+        transform translateX(-50%) translateY(10px)
+
+.hud-tip-text
+    font-size 0.7rem
+    opacity 0.7
+
+    kbd
+        display inline-block
+        padding 1px 6px
+        border-radius 4px
+        background rgba(255, 255, 255, 0.15)
+        font-size 0.65rem
+        font-weight 700
+        margin 0 2px
+
+// ============================================
+// Pause Screen
+// ============================================
+
+.pause-screen
+    position fixed
+    top 0
+    left 0
+    width 100%
+    height 100%
+    z-index 100
+    display flex
+    align-items center
+    justify-content center
+
+    &.is-hidden
+        display none
+
+.pause-overlay
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background rgba(0, 0, 0, 0.55)
+    backdrop-filter blur(12px)
+    -webkit-backdrop-filter blur(12px)
+
+.pause-content
+    position relative
+    z-index 1
+    text-align center
+    padding 40px 50px
+    background rgba(255, 255, 255, 0.04)
+    border-radius 24px
+    border 1px solid rgba(255, 255, 255, 0.08)
+    backdrop-filter blur(20px)
+    -webkit-backdrop-filter blur(20px)
+    min-width 300px
+
+    @media only screen and (max-width 520px)
+        padding 30px 25px
+        min-width 260px
+
+.pause-title
+    font-size 3rem
+    font-weight 900
+    letter-spacing 8px
+    color #ffffff
+    margin-bottom 30px
+    text-shadow 0 0 40px rgba(0, 229, 255, 0.3)
+    font-family "Amatic SC", sans-serif
+
+.pause-menu
+    display flex
+    flex-direction column
+    gap 10px
+
+.pause-btn
+    display flex
+    align-items center
+    gap 12px
+    padding 14px 24px
+    border-radius 12px
+    background rgba(255, 255, 255, 0.06)
+    border 1px solid rgba(255, 255, 255, 0.1)
+    color rgba(255, 255, 255, 0.85)
+    font-size 0.95rem
+    font-weight 600
+    cursor pointer
+    transition all 0.25s ease
+    font-family "Nunito", sans-serif
+    pointer-events auto
+
+    html:not(.is-mode-touch) &:hover
+        background rgba(255, 255, 255, 0.12)
+        border-color rgba(255, 255, 255, 0.25)
+        color #ffffff
+        transform translateX(4px)
+
+    &.pause-btn-primary
+        background rgba(0, 229, 255, 0.1)
+        border-color rgba(0, 229, 255, 0.25)
+        color #00e5ff
+
+        html:not(.is-mode-touch) &:hover
+            background rgba(0, 229, 255, 0.2)
+            border-color rgba(0, 229, 255, 0.5)
+            box-shadow 0 0 20px rgba(0, 229, 255, 0.15)
+
+.pause-btn-icon
+    font-size 1.2rem
+    width 24px
+    text-align center
+    opacity 0.7
+
+.pause-footer
+    margin-top 24px
+    opacity 0.4
+
+.pause-hint
+    font-size 0.7rem
+
+    kbd
+        display inline-block
+        padding 1px 6px
+        border-radius 4px
+        background rgba(255, 255, 255, 0.15)
+        font-size 0.65rem
+        font-weight 700
+        margin 0 2px

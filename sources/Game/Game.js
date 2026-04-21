@@ -48,6 +48,8 @@ import { PreRenderer } from './PreRenderer.js'
 import { Options } from './Options.js'
 import gsap from 'gsap'
 import { Map } from './Map.js'
+import { HUD } from './HUD.js'
+import { PauseScreen } from './PauseScreen.js'
 
 export class Game
 {
@@ -197,6 +199,8 @@ export class Game
         // this.monitoring = new Monitoring()
         this.world.step(1)
         this.overlay = new Overlay()
+        this.hud = new HUD()
+        this.pauseScreen = new PauseScreen()
 
         // Pre-render if quality high
         if(this.quality.level === 0 && this.rendering.renderer.backend.isWebGPUBackend)

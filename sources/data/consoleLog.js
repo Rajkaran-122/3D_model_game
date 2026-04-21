@@ -21,15 +21,14 @@ const text = `
 ╚═══════════════════════╝
 
 ╔═ Socials ═══════════════╗
-║ Mail           ⇒ simon.Raj.77@gmail.com
-║ X              ⇒ https://x.com/Raj_simon
-║ BlueSKy        ⇒ https://bsky.app/profile/Raj-simon.bsky.social
-║ Discord public ⇒ https://discord.com/channels/769928116701233152/1445064878384480288
-║ Discord PM     ⇒ https://discord.com/users/202907325722263553
-║ Youtube        ⇒ https://www.youtube.com/@RajSimon
-║ Twitch         ⇒ https://www.twitch.tv/Raj_simon_dev
-║ GitHub         ⇒ https://github.com/Rajsimon
-║ LinkedIn       ⇒ https://www.linkedin.com/in/simonRaj77/
+║ Mail           ⇒ contact@digitalmetro.dev
+║ X              ⇒ https://x.com/DigitalMetro
+║ BlueSKy        ⇒ https://bsky.app/profile/digitalmetro.bsky.social
+║ Discord PM     ⇒ https://discord.com/users/digitalmetro
+║ Youtube        ⇒ https://www.youtube.com/@DigitalMetro
+║ Twitch         ⇒ https://www.twitch.tv/digitalmetro
+║ GitHub         ⇒ https://github.com/DigitalMetro
+║ LinkedIn       ⇒ https://www.linkedin.com/in/digitalmetro/
 ╚═══════════════════════╝
 
 ╔═ Debug ═══════════════╗
@@ -55,12 +54,12 @@ const text = `
 ╔═ Devlogs ═════════════╗
 ║ I’ve been making devlogs since the very start of this portfolio
 ║ and you can find them all on my Youtube channel.
-║ https://www.youtube.com/@RajSimon
+║ https://www.youtube.com/@DigitalMetro
 ╚═══════════════════════╝
 
 ╔═ Source code ═════════╗
-║ The code is available on GitHub under MIT license. Even the Blender files are there, so have fun!
-║ https://github.com/Rajsimon/3D_model_game
+║ The code is available on GitHub.
+║ https://github.com/DigitalMetro/3D_model_game
 ║ For security reasons, I’m not sharing the server code, but the portfolio works without it.
 ╚═══════════════════════╝
 
@@ -69,7 +68,7 @@ const text = `
 ║ https://linktr.ee/Kounine
 ║ They are now under CC0 license, meaning you can do whatever you want with them!
 ║ Download them here.
-║ https://github.com/Rajsimon/3D_model_game/tree/main/static/sounds/musics
+║ https://github.com/DigitalMetro/3D_model_game/tree/main/static/sounds/musics
 ╚═══════════════════════╝
 
 ╔═ Some more links ═════╗

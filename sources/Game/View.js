@@ -57,6 +57,8 @@ export class View
         this.setSpherical()
         this.setRoll()
         this.setCameras()
+        this.setSpeedFOV()
+        this.setCameraShake()
         this.setOptimalArea()
         this.setFree()
         this.setCinematic()
@@ -410,6 +412,32 @@ export class View
         }
     }
 
+    setSpeedFOV()
+    {
+        this.speedFOV = {}
+        this.speedFOV.baseFOV = 25
+        this.speedFOV.maxFOV = 32
+        this.speedFOV.boostFOV = 36
+        this.speedFOV.currentFOV = this.speedFOV.baseFOV
+        this.speedFOV.speedThreshold = 5 // Start widening at this speed
+        this.speedFOV.speedMax = 35 // Full wide at this speed
+    }
+
+    setCameraShake()
+    {
+        this.cameraShake = {}
+        this.cameraShake.intensity = 0
+        this.cameraShake.decay = 5
+        this.cameraShake.maxIntensity = 0.015
+        this.cameraShake.landingMultiplier = 0.8
+        this.cameraShake.prevWheelsTouching = 4
+
+        this.cameraShake.trigger = (intensity = 1) =>
+        {
+            this.cameraShake.intensity = Math.min(intensity, this.cameraShake.maxIntensity)
+        }
+    }
+
     setFree()
     {
         this.freeMode = new CameraControls(this.freeCamera, this.game.domElement)
@@ -744,6 +772,45 @@ export class View
             this.freeMode.update(this.game.ticker.delta)
             this.camera.position.copy(this.freeCamera.position)
             this.camera.quaternion.copy(this.freeCamera.quaternion)
+        }
+
+        // Speed-based dynamic FOV
+        if(this.game.physicalVehicle && this.speedFOV)
+        {
+            const speed = this.game.physicalVehicle.xzSpeed || 0
+            const speedRatio = smoothstep(speed, this.speedFOV.speedThreshold, this.speedFOV.speedMax)
+            const isBoosting = this.game.player && this.game.player.boosting > 0
+            const targetFOV = isBoosting
+                ? lerp(this.speedFOV.baseFOV, this.speedFOV.boostFOV, speedRatio)
+                : lerp(this.speedFOV.baseFOV, this.speedFOV.maxFOV, speedRatio)
+
+            this.speedFOV.currentFOV = lerp(this.speedFOV.currentFOV, targetFOV, this.game.ticker.delta * 4)
+            this.camera.fov = this.speedFOV.currentFOV
+            this.camera.updateProjectionMatrix()
+        }
+
+        // Camera shake
+        if(this.cameraShake && this.game.physicalVehicle)
+        {
+            // Landing detection
+            const currentTouching = this.game.physicalVehicle.wheels.touchingCount
+            if(currentTouching > 0 && this.cameraShake.prevWheelsTouching === 0)
+            {
+                const landingSpeed = Math.abs(this.game.physicalVehicle.velocity?.y || 0)
+                const shakeAmount = clamp(landingSpeed * 0.003, 0, this.cameraShake.maxIntensity)
+                this.cameraShake.trigger(shakeAmount * this.cameraShake.landingMultiplier)
+            }
+            this.cameraShake.prevWheelsTouching = currentTouching
+
+            // Apply shake
+            if(this.cameraShake.intensity > 0.0001)
+            {
+                const shakeX = (Math.random() - 0.5) * this.cameraShake.intensity
+                const shakeY = (Math.random() - 0.5) * this.cameraShake.intensity
+                this.camera.position.x += shakeX
+                this.camera.position.y += shakeY
+                this.cameraShake.intensity *= (1 - this.cameraShake.decay * this.game.ticker.delta)
+            }
         }
 
         // Cameras matrices

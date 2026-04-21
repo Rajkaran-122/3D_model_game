@@ -230,9 +230,57 @@ export default
         1
     ],
     [
+        'drifter',
+        'Tokyo Drift',
+        'Drift continuously for <strong>5 seconds</strong>.',
+        1
+    ],
+    [
+        'speedDemon',
+        'Speed Demon',
+        'Reach <strong>80 km/h</strong>.',
+        1
+    ],
+    [
+        'airtime',
+        'Frequent Flyer',
+        'Stay airborne for <strong>3 seconds</strong>.',
+        1
+    ],
+    [
+        'nightOwl',
+        'Night Owl',
+        'Drive during the darkest part of night.',
+        1
+    ],
+    [
+        'distanceDriven',
+        'Road Warrior',
+        'Drive 500km.',
+        500
+    ],
+    [
+        'goHigh',
+        'To the Moon',
+        'Reach <strong>30 meters</strong> high.',
+        30
+    ],
+    [
+        'circuitFinishFast',
+        'Lightning McQueen',
+        'Finish a race in less than <strong>20s</strong>.',
+        1
+    ],
+    [
+        'stormChaser',
+        'Storm Chaser',
+        'Get caught in a tornado.',
+        1
+    ],
+    [
         'hacker',
         'Hacker',
-        'This one can’t be achieved.',
+        'This one can\'t be achieved.',
         1
     ],
 ]
