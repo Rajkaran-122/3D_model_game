@@ -3,7 +3,13 @@ node_modules
 dist
 .vercel
 .VSCodeCounter
-.env*
+.env
+.env.local
+.env.production
+.env.development
+!.env.example
 .autosave
-.wav
+*.wav
 !static/sounds/music/*.wav
+dev-server.log
+dev-server.err.log
